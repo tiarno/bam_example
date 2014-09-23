@@ -1,0 +1,3 @@
+LoadModule wsgi_module /usr/lib/apache2/modules/mod_wsgi.so
+WSGIScriptAlias /service /var/www/bottle/bottle_adapter.wsgi
+WSGIDaemonProcess example02 processes=5 threads=25 
